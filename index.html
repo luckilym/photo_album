@@ -198,12 +198,12 @@
         }));
 
         var textAnimate = eval(Jscex.compile("async", function () {
-            var together = new Date();
-            together.setFullYear(2019, 8, 10); //可更改起始时间
-            together.setHours(20);
-            together.setMinutes(21);
-            together.setSeconds(25);
-            together.setMilliseconds(0);
+            var together = new Date('2019-8-10 5:20:33');
+//             together.setFullYear(2019, 8, 10); //可更改起始时间
+//             together.setHours(20);
+//             together.setMinutes(21);
+//             together.setSeconds(25);
+//             together.setMilliseconds(0);
 
             $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
